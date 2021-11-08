@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sistema de información</title>
+</head>
+<body>
+    <row>
+      <form>
+        <div>
+           <label for="base">Base:</label>
+           <input type="text" id="base" placeholder="Base">
+        </div>
+        <br>
+        <div>
+          <label for="minutos">Minutos:</label>
+          <input type="text" id="minutos" placeholder="Minutos">
+        </div>
+        <br>
+        <div>
+          <button type="button" id="agregar">Agregar</button>
+        </div>
+      </form>
+    </row>
+    <row>
+      <p>Rutas:</p>
+      <table id="info">
+        <thead>
+          <tr>
+            <th>Base</th>
+            <th>Minutos</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </row>
+</body>
+<script src="./main.js" type="module"></script>
+</html>
